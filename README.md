@@ -1,4 +1,10 @@
-# physics-simulator
+# cd physics-simulator             # Go to your project folder
+git init                          # Initialize git
+git add .                         # Add all files
+git commit -m "Initial commit"    # Commit
+git branch -M main                # Set main branch
+git remote add origin https://github.com/YOUR-USERNAME/physics-simulator.git
+git push -u origin main           # Push code to GitHub
 import { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
